@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="web:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c3741327-f503-44b8-bd83-1331532873cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/org/carpolling/ws/map/NodeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit/junit-jupiter-api-5.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit/junit-platform-commons-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/logback/logback-classic-1.1.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/logback/logback-core-1.1.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/logback/slf4j-api-1.7.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/carpooling/ws/map/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/carpooling/ws/map/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarpoolingServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CarpoolingServer.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,26 +56,82 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-284475106">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="iml" value="1" />
+          <entry key="java" value="3" />
+          <entry key="md" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="3" />
+          <entry key="Markdown" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="778" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="778" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+        <entry file="file://$PROJECT_DIR$/src/org/carpooling/ws/map/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="462">
+              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="36" />
+              <folding>
+                <element signature="e#282#283#0" expanded="true" />
+                <element signature="e#319#320#0" expanded="true" />
+                <element signature="e#349#350#0" expanded="true" />
+                <element signature="e#379#380#0" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+                <element signature="e#458#459#0" expanded="true" />
+                <element signature="e#504#505#0" expanded="true" />
+                <element signature="e#530#531#0" expanded="true" />
+                <element signature="e#584#585#0" expanded="true" />
+                <element signature="e#614#615#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/org/carpooling/ws/map/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="242">
+              <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
               <folding>
-                <element signature="e#63#64#0" expanded="true" />
-                <element signature="e#88#89#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#262#263#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tests/org/carpolling/ws/map/NodeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="42" column="87" selection-start-line="42" selection-start-column="87" selection-end-line="42" selection-end-column="87" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,6 +153,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/org/carpooling/ws/graph/Node.java" />
+        <option value="$PROJECT_DIR$/src/org/carpooling/ws/map/Node.java" />
+        <option value="$PROJECT_DIR$/Tests/org/carpolling/ws/map/NodeTest.java" />
+        <option value="$PROJECT_DIR$/src/org/carpooling/ws/map/Graph.java" />
       </list>
     </option>
   </component>
@@ -89,6 +165,13 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -128,10 +211,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -139,8 +222,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,19 +229,56 @@
               <item name="CarpoolingServer" type="b2602c69:ProjectViewProjectNode" />
               <item name="CarpoolingServer" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CarpoolingServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarpoolingServer" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CarpoolingServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarpoolingServer" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CarpoolingServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarpoolingServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CarpoolingServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarpoolingServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="map" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CarpoolingServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarpoolingServer" type="462c0819:PsiDirectoryNode" />
+              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CarpoolingServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarpoolingServer" type="462c0819:PsiDirectoryNode" />
+              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+              <item name="map" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542714124392" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542832014207" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/junit/junit-platform-commons-1.3.1.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -174,10 +292,49 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.All in CarpoolingServer">
+    <configuration name="All in CarpoolingServer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CarpoolingServer" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CarpoolingServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.carpolling.ws.map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.carpolling.ws.map" />
+      <option name="MAIN_CLASS_NAME" value="org.carpolling.ws.map.NodeTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NodeTest.constructANewNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CarpoolingServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.carpolling.ws.map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.carpolling.ws.map" />
+      <option name="MAIN_CLASS_NAME" value="org.carpolling.ws.map.NodeTest" />
+      <option name="METHOD_NAME" value="constructANewNode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WebSphere 18.0.0.3" type="WebSphereRunConfigurationType" factoryName="Local" APPLICATION_SERVER_NAME="WebSphere 18.0.0.3" ALTERNATIVE_JRE_ENABLED="false">
       <option name="PORT" value="9080" />
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:9080/web_war_exploded/web_war_exploded" />
+      <option name="BROWSER_ID" value="53e2f627-b1a7-4dfa-bfa7-5b83cc034776" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="web:war exploded">
@@ -250,12 +407,24 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
       <method v="2">
-        <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="web:war exploded" />
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="WebSphere Server.WebSphere 18.0.0.3" />
+      <item itemvalue="JUnit.NodeTest" />
+      <item itemvalue="JUnit.All in CarpoolingServer" />
+      <item itemvalue="JUnit.NodeTest.constructANewNode" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in CarpoolingServer" />
+        <item itemvalue="JUnit.NodeTest.constructANewNode" />
+        <item itemvalue="JUnit.NodeTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -268,46 +437,80 @@
       <option name="presentableId" value="Default" />
       <updated>1542713692385</updated>
       <workItem from="1542713693832" duration="301000" />
+      <workItem from="1542824381945" duration="7234000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="NodeTest_constructANewNode - 2018.11.21 at 13h 22m 34s.xml">
+      <configuration name="NodeTest.constructANewNode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_CarpoolingServer - 2018.11.21 at 13h 22m 55s.xml">
+      <configuration name="All in CarpoolingServer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_CarpoolingServer - 2018.11.21 at 13h 23m 25s.xml">
+      <configuration name="All in CarpoolingServer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_CarpoolingServer - 2018.11.21 at 13h 29m 19s.xml">
+      <configuration name="All in CarpoolingServer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_CarpoolingServer - 2018.11.21 at 13h 29m 33s.xml">
+      <configuration name="All in CarpoolingServer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_CarpoolingServer - 2018.11.21 at 13h 29m 50s.xml">
+      <configuration name="All in CarpoolingServer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_CarpoolingServer - 2018.11.21 at 13h 41m 58s.xml">
+      <configuration name="All in CarpoolingServer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_CarpoolingServer - 2018.11.21 at 13h 42m 13s.xml">
+      <configuration name="All in CarpoolingServer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_CarpoolingServer - 2018.11.21 at 14h 06m 07s.xml">
+      <configuration name="All in CarpoolingServer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_CarpoolingServer - 2018.11.21 at 14h 07m 21s.xml">
+      <configuration name="All in CarpoolingServer" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="301000" />
+    <option name="totallyTimeSpent" value="7535000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2521322" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Application Servers" visible="true" weight="0.32879046" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.329718" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3286334" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,20 +524,61 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Main.java" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CarpoolingServer.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="176">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/org/carpooling/ws/map/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="462">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="36" />
           <folding>
-            <element signature="e#63#64#0" expanded="true" />
-            <element signature="e#88#89#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/org/carpolling/ws/map/NodeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="42" column="87" selection-start-line="42" selection-start-column="87" selection-end-line="42" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/carpooling/ws/map/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -419,6 +663,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>junit</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
