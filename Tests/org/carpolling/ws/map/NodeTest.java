@@ -36,11 +36,11 @@ class NodeTest {
         map.put(node2, 20);
         map.put(node3, 4);
 
-        assertTrue(node1.getMap().isEmpty(), "Node map must be empty");
-        node1.setMap(map);
-        assertFalse(node1.getMap().isEmpty(), "Node map must not be empty");
+        assertTrue(node1.getAdjacent().isEmpty(), "Node map must be empty");
+        node1.setAdjacent(map);
+        assertFalse(node1.getAdjacent().isEmpty(), "Node map must not be empty");
 
-        assertEquals(20, node1.getMap().get(node2).intValue(), "Node element must be 20");
-        assertEquals(4, node1.getMap().get(node3).intValue(), "Node element must be 4");
+        assertEquals(20, node1.getAdjacent().get(node2).intValue(), "Node element must be 20");
+        assertEquals(4, node1.getAdjacent().get(node3).intValue(), "Node element must be 4");
     }
 }

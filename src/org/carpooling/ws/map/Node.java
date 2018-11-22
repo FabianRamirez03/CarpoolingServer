@@ -2,14 +2,15 @@ package org.carpooling.ws.map;
 
 import java.util.HashMap;
 
-public class Node <T> {
+public class Node<T> {
 
     private T element = null;
-    private HashMap<Node<T>, Integer> map = new HashMap<>();  // Connections and their magnitudes with this Node
+    private HashMap<Node<T>, Integer> adjacent = new HashMap<>();  // Connections and their magnitudes with this Node
 
-    public Node(){}
+    public Node() {
+    }
 
-    public Node(T element){
+    public Node(T element) {
         this.element = element;
     }
 
@@ -21,11 +22,11 @@ public class Node <T> {
         this.element = element;
     }
 
-    public HashMap<Node<T>, Integer> getMap() {
-        return map;
+    public HashMap<Node<T>, Integer> getAdjacent() {
+        return adjacent;
     }
 
-    public void setMap(HashMap<Node<T>, Integer> map) {
-        this.map = map;
+    public void setAdjacent(HashMap<Node<T>, Integer> adjacent) {
+        this.adjacent = adjacent;
     }
 }

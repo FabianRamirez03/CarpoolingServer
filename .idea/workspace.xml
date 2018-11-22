@@ -7,18 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3741327-f503-44b8-bd83-1331532873cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/org/carpolling/ws/map/NodeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit/junit-jupiter-api-5.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit/junit-platform-commons-1.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/logback/logback-classic-1.1.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/logback/logback-core-1.1.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/logback/slf4j-api-1.7.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/carpooling/ws/map/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/carpooling/ws/map/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/org/carpolling/ws/map/GraphTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/carpooling/util/DoubleArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CarpoolingServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CarpoolingServer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/org/carpolling/ws/map/NodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/org/carpolling/ws/map/NodeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/carpooling/ws/map/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/carpooling/ws/map/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/carpooling/ws/map/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/carpooling/ws/map/Node.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,26 +59,30 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="class" value="9" />
           <entry key="iml" value="1" />
-          <entry key="java" value="3" />
+          <entry key="java" value="5" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CLASS" value="9" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="5" />
           <entry key="Markdown" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="778" />
+          <entry key="java" value="2689" />
+          <entry key="txt" value="174" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="778" />
+          <entry key="JAVA" value="2689" />
+          <entry key="PLAIN_TEXT" value="174" />
         </counts>
       </usages-collector>
     </session>
@@ -94,13 +92,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/carpooling/ws/map/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="36" />
+            <state relative-caret-position="308">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#319#320#0" expanded="true" />
-                <element signature="e#349#350#0" expanded="true" />
-                <element signature="e#379#380#0" expanded="true" />
+                <element signature="e#281#282#0" expanded="true" />
+                <element signature="e#342#343#0" expanded="true" />
+                <element signature="e#372#373#0" expanded="true" />
                 <element signature="e#420#421#0" expanded="true" />
                 <element signature="e#458#459#0" expanded="true" />
                 <element signature="e#504#505#0" expanded="true" />
@@ -112,14 +109,36 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/carpooling/ws/map/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+            <state relative-caret-position="638">
+              <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#262#263#0" expanded="true" />
+                <element signature="e#1500#1501#0" expanded="true" />
+                <element signature="e#1531#1532#0" expanded="true" />
+                <element signature="e#1591#1592#0" expanded="true" />
+                <element signature="e#1631#1632#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/carpooling/util/DoubleArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+              <folding>
+                <element signature="e#202#203#0" expanded="true" />
+                <element signature="e#230#231#0" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
+                <element signature="e#329#330#0" expanded="true" />
+                <element signature="e#358#359#0" expanded="true" />
+                <element signature="e#397#398#0" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -128,8 +147,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/org/carpolling/ws/map/NodeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="42" column="87" selection-start-line="42" selection-start-column="87" selection-end-line="42" selection-end-column="87" />
+            <state relative-caret-position="372">
+              <caret line="40" column="19" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tests/org/carpolling/ws/map/GraphTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="431">
+              <caret line="71" column="90" selection-start-line="71" selection-start-column="90" selection-end-line="71" selection-end-column="90" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -154,9 +185,11 @@
       <list>
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/org/carpooling/ws/graph/Node.java" />
-        <option value="$PROJECT_DIR$/src/org/carpooling/ws/map/Node.java" />
         <option value="$PROJECT_DIR$/Tests/org/carpolling/ws/map/NodeTest.java" />
+        <option value="$PROJECT_DIR$/src/org/carpooling/ws/map/Node.java" />
+        <option value="$PROJECT_DIR$/src/org/carpooling/util/DoubleArray.java" />
         <option value="$PROJECT_DIR$/src/org/carpooling/ws/map/Graph.java" />
+        <option value="$PROJECT_DIR$/Tests/org/carpolling/ws/map/GraphTest.java" />
       </list>
     </option>
   </component>
@@ -249,6 +282,20 @@
               <item name="CarpoolingServer" type="b2602c69:ProjectViewProjectNode" />
               <item name="CarpoolingServer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="carpooling" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CarpoolingServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarpoolingServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="carpooling" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CarpoolingServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarpoolingServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="carpooling" type="462c0819:PsiDirectoryNode" />
               <item name="map" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -274,7 +321,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542832014207" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542854991040" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/junit/junit-platform-commons-1.3.1.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -297,36 +344,6 @@
       <module name="CarpoolingServer" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CarpoolingServer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.carpolling.ws.map.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.carpolling.ws.map" />
-      <option name="MAIN_CLASS_NAME" value="org.carpolling.ws.map.NodeTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NodeTest.constructANewNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CarpoolingServer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.carpolling.ws.map.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.carpolling.ws.map" />
-      <option name="MAIN_CLASS_NAME" value="org.carpolling.ws.map.NodeTest" />
-      <option name="METHOD_NAME" value="constructANewNode" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -414,15 +431,11 @@
     </configuration>
     <list>
       <item itemvalue="WebSphere Server.WebSphere 18.0.0.3" />
-      <item itemvalue="JUnit.NodeTest" />
       <item itemvalue="JUnit.All in CarpoolingServer" />
-      <item itemvalue="JUnit.NodeTest.constructANewNode" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in CarpoolingServer" />
-        <item itemvalue="JUnit.NodeTest.constructANewNode" />
-        <item itemvalue="JUnit.NodeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -437,50 +450,67 @@
       <option name="presentableId" value="Default" />
       <updated>1542713692385</updated>
       <workItem from="1542713693832" duration="301000" />
-      <workItem from="1542824381945" duration="7234000" />
+      <workItem from="1542824381945" duration="25445000" />
     </task>
+    <task id="LOCAL-00001" summary="Added junit and logback libraries to lib folder&#10;Added Node and Graph classes to the map package&#10;Added NodeTest to the unitary Tests folder">
+      <created>1542832241958</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1542832241958</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NodeTest_constructANewNode - 2018.11.21 at 13h 22m 34s.xml">
-      <configuration name="NodeTest.constructANewNode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_CarpoolingServer - 2018.11.21 at 13h 22m 55s.xml">
+    <history-entry file="All_in_CarpoolingServer - 2018.11.21 at 20h 09m 10s.xml">
       <configuration name="All in CarpoolingServer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_CarpoolingServer - 2018.11.21 at 13h 23m 25s.xml">
+    <history-entry file="All_in_CarpoolingServer - 2018.11.21 at 20h 13m 02s.xml">
       <configuration name="All in CarpoolingServer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_CarpoolingServer - 2018.11.21 at 13h 29m 19s.xml">
+    <history-entry file="All_in_CarpoolingServer - 2018.11.21 at 20h 13m 06s.xml">
       <configuration name="All in CarpoolingServer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_CarpoolingServer - 2018.11.21 at 13h 29m 33s.xml">
+    <history-entry file="All_in_CarpoolingServer - 2018.11.21 at 20h 15m 09s.xml">
       <configuration name="All in CarpoolingServer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_CarpoolingServer - 2018.11.21 at 13h 29m 50s.xml">
+    <history-entry file="All_in_CarpoolingServer - 2018.11.21 at 20h 17m 40s.xml">
       <configuration name="All in CarpoolingServer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_CarpoolingServer - 2018.11.21 at 13h 41m 58s.xml">
+    <history-entry file="All_in_CarpoolingServer - 2018.11.21 at 20h 18m 27s.xml">
       <configuration name="All in CarpoolingServer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_CarpoolingServer - 2018.11.21 at 13h 42m 13s.xml">
+    <history-entry file="All_in_CarpoolingServer - 2018.11.21 at 20h 19m 02s.xml">
       <configuration name="All in CarpoolingServer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_CarpoolingServer - 2018.11.21 at 14h 06m 07s.xml">
+    <history-entry file="All_in_CarpoolingServer - 2018.11.21 at 20h 20m 27s.xml">
       <configuration name="All in CarpoolingServer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_CarpoolingServer - 2018.11.21 at 14h 07m 21s.xml">
+    <history-entry file="All_in_CarpoolingServer - 2018.11.21 at 20h 21m 27s.xml">
+      <configuration name="All in CarpoolingServer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_CarpoolingServer - 2018.11.21 at 20h 31m 48s.xml">
       <configuration name="All in CarpoolingServer" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7535000" />
+    <option name="totallyTimeSpent" value="25746000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2521322" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2521322" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -488,20 +518,20 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.329718" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3286334" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.329718" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Debug" order="4" visible="true" weight="0.28958786" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.329718" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.3286334" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -518,6 +548,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added junit and logback libraries to lib folder&#10;Added Node and Graph classes to the map package&#10;Added NodeTest to the unitary Tests folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added junit and logback libraries to lib folder&#10;Added Node and Graph classes to the map package&#10;Added NodeTest to the unitary Tests folder" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -543,15 +577,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/org/carpolling/ws/map/NodeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="40" column="19" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/carpooling/util/DoubleArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <folding>
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/carpooling/ws/map/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="36" />
+        <state relative-caret-position="308">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
             <element signature="e#420#421#0" expanded="true" />
             <element signature="e#458#459#0" expanded="true" />
             <element signature="e#504#505#0" expanded="true" />
@@ -562,23 +622,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/org/carpolling/ws/map/NodeTest.java">
+    <entry file="jar://$PROJECT_DIR$/lib/junit/junit-platform-commons-1.3.1.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="42" column="87" selection-start-line="42" selection-start-column="87" selection-end-line="42" selection-end-column="87" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="171">
+          <caret line="237" selection-start-line="237" selection-end-line="237" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/carpooling/ws/map/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        <state relative-caret-position="638">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#1500#1501#0" expanded="true" />
+            <element signature="e#1531#1532#0" expanded="true" />
+            <element signature="e#1591#1592#0" expanded="true" />
+            <element signature="e#1631#1632#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/org/carpolling/ws/map/GraphTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="71" column="90" selection-start-line="71" selection-start-column="90" selection-end-line="71" selection-end-column="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
