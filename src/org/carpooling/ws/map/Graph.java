@@ -10,10 +10,17 @@ public class Graph {
 
     private List<Node<String>> vertices = new ArrayList<>();
     private HashMap<Node<String>, DoubleArray<Integer, Node<String>>> matrix = new HashMap<>(); // Node, [Distance, Predecessor]
+    private Integer[][] distances;
+    private Node<String>[][] predecessors;
 
     public Graph() {
     }
 
+    /**
+     * Calculates the shorter distance between one node to all others
+     * @param node the reference node to calculate distance
+     * @return a Map with the node as the key and a double array of the [distance, predecessor] as the value
+     */
     public final HashMap<Node<String>, DoubleArray<Integer, Node<String>>> dijkstra(Node<String> node) {
         List<Node<String>> V = new ArrayList<>();
         List<Node<String>> NV = new ArrayList<>();
@@ -53,11 +60,49 @@ public class Graph {
         });
     }
 
+    public final void floyd_warshall(){
+        int len = vertices.size();
+        distances = new Integer[len][len];
+        predecessors = new Node[len][len];
+
+        int i = 0;
+        for (Node<String> node : vertices) {
+            var matrix = dijkstra(node);
+            for (int j = 0; j < matrix.size(); j++) {
+                DoubleArray<Integer, Node<String>> v = matrix.get(vertices.get(j));
+                if (i == j) {
+                    distances[i][j] = 0;
+                    predecessors[i][j] = null;
+                } else {
+                    distances[i][j] = v.getFirst();
+                    predecessors[i][j] = v.getSecond();
+                }
+            }
+            i++;
+        }
+    }
+
     public List<Node<String>> getVertices() {
         return vertices;
     }
 
     public void setVertices(List<Node<String>> vertices) {
         this.vertices = vertices;
+    }
+
+    public Integer[][] getDistances() {
+        return distances;
+    }
+
+    public void setDistances(Integer[][] distances) {
+        this.distances = distances;
+    }
+
+    public Node<String>[][] getPredecessors() {
+        return predecessors;
+    }
+
+    public void setPredecessors(Node<String>[][] predecessors) {
+        this.predecessors = predecessors;
     }
 }
