@@ -1,0 +1,17 @@
+package org.carpooling.ws.serv.driver;
+
+import javax.ws.rs.ApplicationPath;
+import javax.ws.rs.core.Application;
+import java.util.HashSet;
+import java.util.Set;
+
+@ApplicationPath("/")
+public class driverApplication extends Application{
+
+    @Override
+    public Set<Class<?>> getClasses() {
+        HashSet h = new HashSet<Class<?>>();
+        h.add(DriverResource.class );
+        return h;
+    }
+}

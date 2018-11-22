@@ -60,4 +60,8 @@ public class Graph {
     public void setVertices(List<Node<String>> vertices) {
         this.vertices = vertices;
     }
+    public Graph getGraph(){
+        return null;
+    }
+
 }
