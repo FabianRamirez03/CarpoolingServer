@@ -9,15 +9,27 @@ import java.util.List;
 public class Graph {
 
     private List<Node<String>> vertices = new ArrayList<>();
-    private HashMap<Node<String>, DoubleArray<Integer, Node<String>>> matrix = new HashMap<>(); // Node, [Distance, Predecessor]
-    private Integer[][] distances;
-    private Node<String>[][] predecessors;
+    private Integer[][] distances;  // Matrix with shorter distance between nodes
+    private Node<String>[][] predecessors;  // Matrix with predecessors of the nodes
+    private HashMap<Node<String>, DoubleArray<Integer, Node<String>>> matrix = new HashMap<>();  // Node, [Distance, Predecessor]
+
 
     public Graph() {
     }
 
     /**
+     * Constructor that automatically calculates the shorter distance between all nodes
+     *
+     * @param vertices the list of nodes that will form the graph
+     */
+    public Graph(List<Node<String>> vertices) {
+        this.vertices = vertices;
+        floyd_warshall();
+    }
+
+    /**
      * Calculates the shorter distance between one node to all others
+     *
      * @param node the reference node to calculate distance
      * @return a Map with the node as the key and a double array of the [distance, predecessor] as the value
      */
@@ -60,7 +72,10 @@ public class Graph {
         });
     }
 
-    public final void floyd_warshall(){
+    /**
+     * Generates adjacency matrix with weight that has the shorter path between any node in the vertices
+     */
+    public final void floyd_warshall() {
         int len = vertices.size();
         distances = new Integer[len][len];
         predecessors = new Node[len][len];
@@ -81,6 +96,11 @@ public class Graph {
             i++;
         }
     }
+
+
+    /**
+     * Getters and Setters
+     **/
 
     public List<Node<String>> getVertices() {
         return vertices;
