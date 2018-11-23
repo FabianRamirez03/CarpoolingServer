@@ -2,7 +2,9 @@ package org.carpooling.ws.map;
 
 import org.carpooling.util.DoubleArray;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 
@@ -25,6 +27,30 @@ public class Graph {
     public Graph(List<Node<String>> vertices) {
         this.vertices = vertices;
         floyd_warshall();
+    }
+
+    /**
+     * Calculates the shorter path between two nodes
+     *
+     * @param node1 initial node
+     * @param node2 final node
+     * @return a list of nodes from the initial to the final
+     */
+    public final List<Node<String>> path(Node<String> node1, Node<String> node2) {
+        List<Node<String>> nodes = new ArrayList<>();
+        int i = vertices.indexOf(node1);
+        int j = vertices.indexOf(node2);
+        nodes.add(node2);
+
+        Node<String> node = null;
+        while (node != node1) {
+            node = predecessors[i][j];
+            nodes.add(node);
+            j = vertices.indexOf(node);
+        }
+
+        Collections.reverse(nodes);
+        return nodes;
     }
 
     /**

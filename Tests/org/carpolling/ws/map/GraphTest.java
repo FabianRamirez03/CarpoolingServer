@@ -5,6 +5,7 @@ import org.carpooling.ws.map.Node;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
@@ -124,5 +125,31 @@ class GraphTest {
         nodes.add(d);
         nodes.add(e);
         return nodes;
+    }
+
+    @Test
+    void calculatesShorterPathBetweenNodes() {
+        List<Node<String>> nodes = generateVertices();
+        Graph graph = new Graph(nodes);
+
+        Node<String> a = nodes.get(0);
+        Node<String> b = nodes.get(1);
+        Node<String> c = nodes.get(2);
+        Node<String> d = nodes.get(3);
+        Node<String> e = nodes.get(4);
+        Node<String>[] array;
+        List<Node<String>> path;
+
+        array = new Node[]{a, e, d, c};
+        path = Arrays.asList(array);
+        assertEquals(path, graph.path(a, c), "The shorter path between A and C must be {A, E, D, C}");
+
+        array = new Node[]{b, d, e, a};
+        path = Arrays.asList(array);
+        assertEquals(path, graph.path(b, a), "The shorter path between B and A must be {B, D, E, A}");
+
+        array = new Node[]{c, d, b};
+        path = Arrays.asList(array);
+        assertEquals(path, graph.path(c, b), "The shorter path between C and B must be {C, D, B}");
     }
 }
