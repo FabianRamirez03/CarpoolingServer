@@ -5,7 +5,8 @@ import org.carpooling.ws.serv.driver.driver;
 public class riderService {
 
     public driver getDriver(){
-        return null;
+        return driver.getInstance();
     }
+
 
 }

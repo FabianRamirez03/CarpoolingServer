@@ -20,6 +20,11 @@ public class DriverResource {
         return driverService.getGraph();
     }
 
+    @GET
+    @Path("/(getDriver)")
+    public driver getDriver(){
+        return driverService.getDriver();
+    }
 
 
 

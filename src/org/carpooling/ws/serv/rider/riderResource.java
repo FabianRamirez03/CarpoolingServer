@@ -13,6 +13,7 @@ public class riderResource {
     private riderService riderService = new riderService();
 
     @GET
+    @Path("/(getDriver)")
     public driver getDriver(){
         return riderService.getDriver();
     }

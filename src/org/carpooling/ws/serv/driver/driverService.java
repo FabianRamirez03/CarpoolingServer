@@ -14,4 +14,10 @@ public class driverService {
     public void addDriver(driver driver){
         driver.addDriver(driver);
     }
+
+    public driver getDriver(){
+        return driver.getInstance();
+    }
+
+
 }
