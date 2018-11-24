@@ -4,25 +4,25 @@ import org.carpooling.ws.map.Node;
 
 public class ride {
 
-    private Node beginning;
-    private Node mid;
-    private Node end;
+    private String beginning;
+    private String mid;
+    private String end;
 
 
     public ride(){
     }
-    public ride (Node n1, Node n2){
+    public ride (String n1, String n2){
         this.setBeginning(n1);
         this.setEnd(n2);
     }
-    public ride (Node beginning, Node mid, Node end){
+    public ride (String beginning, String mid, String end){
         this.setBeginning(beginning);
         this.setMid(mid);
         this.setEnd(end);
     }
 
 
-    public ride mergeRides(Node beginning, Node mid, Node end){
+    public ride mergeRides(String beginning, String mid, String end){
         ride ride = new ride(beginning,mid, end);
         return ride;
     }
@@ -32,27 +32,27 @@ public class ride {
 
     //Getters and Setters
 
-    public Node getBeginning() {
+    public String getBeginning() {
         return beginning;
     }
 
-    public void setBeginning(Node beginning) {
+    public void setBeginning(String beginning) {
         this.beginning = beginning;
     }
 
-    public Node getMid() {
+    public String getMid() {
         return mid;
     }
 
-    public void setMid(Node mid) {
+    public void setMid(String mid) {
         this.mid = mid;
     }
 
-    public Node getEnd() {
+    public String getEnd() {
         return end;
     }
 
-    public void setEnd(Node end) {
+    public void setEnd(String end) {
         this.end = end;
     }
 }

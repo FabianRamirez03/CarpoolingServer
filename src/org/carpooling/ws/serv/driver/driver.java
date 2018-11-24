@@ -10,14 +10,10 @@ public class driver {
     private ride actualRide;
 
 
-    public driver(){
-
+    private driver(){
         this.actualRide = new ride();
-
     }
 
-    public static void addDriver(driver driver){
-    }
 
     public static driver getInstance(){
         if (driver == null){
@@ -26,6 +22,13 @@ public class driver {
         return driver;
     }
 
+
+
+    public void updateRide(String beginning, String mid, String end){
+        driver.getActualRide().setBeginning(beginning);
+        driver.getActualRide().setMid(mid);
+        driver.getActualRide().setEnd(end);
+    }
 
 
 
@@ -39,4 +42,11 @@ public class driver {
     }
 
 
+    public ride getActualRide() {
+        return actualRide;
+    }
+
+    public void setActualRide(ride actualRide) {
+        this.actualRide = actualRide;
+    }
 }
