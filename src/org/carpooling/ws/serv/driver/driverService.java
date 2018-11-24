@@ -1,5 +1,6 @@
 package org.carpooling.ws.serv.driver;
 
+
 import org.carpooling.ws.map.Graph;
 
 public class driverService {
@@ -11,12 +12,14 @@ public class driverService {
     public Graph getGraph(){
         return null;
     }
-    public void addDriver(driver driver){
-        driver.addDriver(driver);
-    }
+
 
     public driver getDriver(){
         return driver.getInstance();
+    }
+
+    public driver startRide(String beginning, String end){
+        return driver.getInstance().startRide(beginning, end);
     }
 
 

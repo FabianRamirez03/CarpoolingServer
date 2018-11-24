@@ -30,7 +30,11 @@ public class driver {
         driver.getActualRide().setEnd(end);
     }
 
-
+    public driver startRide(String beginning, String end){
+        driver.getActualRide().setBeginning(beginning);
+        driver.getActualRide().setEnd(end);
+        return driver;
+    }
 
 
     public Node getActualPosition() {

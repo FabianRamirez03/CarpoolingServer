@@ -15,17 +15,22 @@ public class DriverResource {
     private driverService driverService = new driverService();
 
     @GET
-    @Path("/(graph)")
+    @Path("/{graph}")
     public Graph getGraph(){
         return driverService.getGraph();
     }
 
     @GET
-    @Path("/(getDriver)")
+    @Path("/{getDriver}")
     public driver getDriver(){
         return driverService.getDriver();
     }
 
+    @POST
+    @Path("/begin = {beginning}, end = {ending}")
+    public driver startRide(@PathParam("beginning")String begin, @PathParam("ending")String end){
+        return driverService.startRide(begin, end);
+    }
 
 
 }
