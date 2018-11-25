@@ -26,5 +26,6 @@
     <orderEntry type="library" scope="PROVIDED" name="WebSphere 18.0.0.3" level="application_server_libraries" />
     <orderEntry type="library" name="logback" level="project" />
     <orderEntry type="library" name="junit" level="project" />
+    <orderEntry type="library" name="jersey-common" level="project" />
   </component>
 </module>
