@@ -1,8 +1,8 @@
 package org.carpolling.ws.map;
 
-import org.carpooling.ws.map.Graph;
-import org.carpooling.ws.map.MapGenerator;
-import org.carpooling.ws.map.Node;
+import org.carpooling.ws.server.map.Graph;
+import org.carpooling.ws.server.map.MapGenerator;
+import org.carpooling.ws.server.map.Node;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;

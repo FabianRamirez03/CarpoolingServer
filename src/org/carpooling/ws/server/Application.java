@@ -1,6 +1,7 @@
 package org.carpooling.ws.server;
 
 import org.carpooling.ws.server.driver.DriverResource;
+import org.carpooling.ws.server.map.MapResource;
 import org.carpooling.ws.server.user.UserResource;
 
 import javax.ws.rs.ApplicationPath;
@@ -15,6 +16,7 @@ public class Application extends javax.ws.rs.core.Application {
         HashSet h = new HashSet<Class<?>>();
         h.add(DriverResource.class);
         h.add(UserResource.class);
+        h.add(MapResource.class);
         return h;
     }
 }

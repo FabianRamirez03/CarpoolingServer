@@ -1,4 +1,4 @@
-package org.carpooling.ws.map;
+package org.carpooling.ws.server.map;
 
 import org.carpooling.util.Math;
 
