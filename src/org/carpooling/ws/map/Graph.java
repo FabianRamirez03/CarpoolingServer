@@ -2,7 +2,6 @@ package org.carpooling.ws.map;
 
 import org.carpooling.util.DoubleArray;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
