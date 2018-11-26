@@ -6,29 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3741327-f503-44b8-bd83-1331532873cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jackson.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jackson/jackson-annotations-2.9.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jackson/jackson-core-2.9.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jackson/jackson-databind-2.9.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jersey/javax.ws.rs-api-2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jersey/jersey-client.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jersey/jersey-common.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jersey/jersey-container-servlet-core.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jersey/jersey-container-servlet.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jersey/jersey-server.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/CarpoolingServer_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/CarpoolingServer_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/jersey.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/jersey.xml" afterDir="false" />
+    <list default="true" id="c3741327-f503-44b8-bd83-1331532873cf" name="Default Changelist" comment="Added jackson lib">
+      <change afterPath="$PROJECT_DIR$/src/org/carpooling/ws/server/map/GraphSerializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CarpoolingServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CarpoolingServer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/org/carpolling/ws/map/GraphTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/org/carpolling/ws/map/GraphTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/carpooling/ws/server/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/carpooling/ws/server/CarpoolingApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/carpooling/ws/server/map/MapResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/carpooling/ws/server/map/MapResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/carpooling/ws/server/map/MapService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/carpooling/ws/server/map/MapService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/carpooling/ws/server/user/UserResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/carpooling/ws/server/user/UserResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/carpooling/ws/server/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/carpooling/ws/server/user/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,9 +56,10 @@
     <session id="-284475106">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -85,7 +67,7 @@
           <entry key="MF" value="2" />
           <entry key="class" value="11" />
           <entry key="iml" value="1" />
-          <entry key="java" value="78" />
+          <entry key="java" value="79" />
           <entry key="jsp" value="3" />
           <entry key="md" value="1" />
           <entry key="xml" value="9" />
@@ -95,7 +77,7 @@
         <counts>
           <entry key="CLASS" value="11" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="78" />
+          <entry key="JAVA" value="79" />
           <entry key="JSP" value="3" />
           <entry key="Manifest" value="2" />
           <entry key="Markdown" value="1" />
@@ -105,17 +87,17 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="61" />
-          <entry key="java" value="7886" />
+          <entry key="java" value="7942" />
           <entry key="jsp" value="21" />
-          <entry key="txt" value="609" />
+          <entry key="txt" value="628" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7886" />
+          <entry key="JAVA" value="7942" />
           <entry key="JSP" value="21" />
-          <entry key="PLAIN_TEXT" value="670" />
+          <entry key="PLAIN_TEXT" value="689" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -132,20 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/carpooling/ws/server/map/MapResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/carpooling/ws/server/map/Graph.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+            <state relative-caret-position="430">
+              <caret line="23" column="67" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -154,14 +124,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/org/carpooling/ws/server/user/UserResource.java">
+        <entry file="file://$PROJECT_DIR$/src/org/carpooling/ws/server/map/GraphSerializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+            <state relative-caret-position="474">
+              <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#481#482#0" expanded="true" />
-                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/carpooling/ws/server/map/Graph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/carpooling/ws/server/user/UserResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -184,11 +180,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/org/carpolling/ws/map/GraphTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="24" column="68" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="68" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-308">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -196,11 +189,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/carpooling/ws/server/user/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="110">
+              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -260,16 +250,17 @@
         <option value="$PROJECT_DIR$/Tests/org/carpolling/ws/map/NodeTest.java" />
         <option value="$PROJECT_DIR$/src/org/carpooling/ws/server/user/User.java" />
         <option value="$PROJECT_DIR$/src/org/carpooling/ws/server/driver/DriverResource.java" />
-        <option value="$PROJECT_DIR$/src/org/carpooling/ws/server/map/Graph.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/org/carpooling/ws/server/Application.java" />
         <option value="$PROJECT_DIR$/src/org/carpooling/ws/server/CarpoolingApplication.java" />
         <option value="$PROJECT_DIR$/src/org/carpooling/ws/server/map/MapService.java" />
         <option value="$PROJECT_DIR$/Tests/org/carpolling/ws/map/GraphTest.java" />
-        <option value="$PROJECT_DIR$/src/org/carpooling/ws/server/map/MapResource.java" />
         <option value="$PROJECT_DIR$/src/org/carpooling/ws/server/user/UserService.java" />
         <option value="$PROJECT_DIR$/src/org/carpooling/ws/server/user/UserResource.java" />
+        <option value="$PROJECT_DIR$/src/org/carpooling/ws/server/map/Graph.java" />
+        <option value="$PROJECT_DIR$/src/org/carpooling/ws/server/map/MapResource.java" />
+        <option value="$PROJECT_DIR$/src/org/carpooling/ws/server/map/GraphSerializer.java" />
       </list>
     </option>
   </component>
@@ -335,9 +326,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -429,6 +417,9 @@
         </subPane>
         <option name="show-excluded-files" value="false" />
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -437,7 +428,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543213478566" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543250378761" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/jackson/jackson-databind-2.9.7.jar!/" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -635,6 +626,7 @@
       <workItem from="1542923132236" duration="16350000" />
       <workItem from="1542988757750" duration="4878000" />
       <workItem from="1543057615807" duration="3213000" />
+      <workItem from="1543236936212" duration="4388000" />
     </task>
     <task id="LOCAL-00001" summary="Added junit and logback libraries to lib folder&#10;Added Node and Graph classes to the map package&#10;Added NodeTest to the unitary Tests folder">
       <created>1542832241958</created>
@@ -706,7 +698,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543195010406</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added jackson lib">
+      <created>1543213581078</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1543213581078</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -742,7 +741,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77410000" />
+    <option name="totallyTimeSpent" value="83189000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -757,7 +756,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18017058" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18176973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -768,17 +767,17 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
       <window_info anchor="bottom" id="Messages" order="2" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49946696" visible="true" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49946696" visible="true" weight="0.29067245" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4154013" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" weight="0.329718" />
-      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.3286334" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.329718" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3295082" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32786885" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3295082" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.329718" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3295082" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.329718" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -807,19 +806,8 @@
     <MESSAGE value="Created a MapResource" />
     <MESSAGE value="Created war artifact to run in remote server" />
     <MESSAGE value="Added jersey" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added jersey" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Tests/org/carpolling/ws/map/GraphTest.java</url>
-          <line>24</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Added jackson lib" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added jackson lib" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -852,13 +840,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/carpooling/ws/serv/driver/driverApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/carpooling/ws/serv/driver/driverApplication.java" />
     <entry file="file://$PROJECT_DIR$/src/org/carpooling/util/DoubleArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -866,13 +848,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/carpooling/ws/serv/rider/riderApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/carpooling/ws/serv/rider/riderApplication.java" />
     <entry file="file://$PROJECT_DIR$/src/org/carpooling/ws/server/driver/DriverService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -885,27 +861,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/carpooling/ws/serv/ride/Ride.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/carpooling/ws/serv/ride/RideService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/carpooling/ws/serv/ride/RideResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/carpooling/ws/serv/ride/Ride.java" />
+    <entry file="file://$PROJECT_DIR$/src/org/carpooling/ws/serv/ride/RideService.java" />
+    <entry file="file://$PROJECT_DIR$/src/org/carpooling/ws/serv/ride/RideResource.java" />
     <entry file="file://$PROJECT_DIR$/src/org/carpooling/ws/server/map/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -1003,6 +961,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit/junit-platform-commons-1.3.1.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="235" selection-start-line="235" selection-end-line="235" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/carpooling/ws/server/user/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/org/carpolling/ws/map/GraphTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-308">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/carpooling/ws/server/user/UserResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/carpooling/ws/server/map/MapGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -1015,27 +1004,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/junit/junit-platform-commons-1.3.1.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="235" selection-start-line="235" selection-end-line="235" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/org/carpolling/ws/map/GraphTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="24" column="68" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/carpooling/ws/server/map/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        <state relative-caret-position="132">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1044,32 +1016,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/carpooling/ws/server/map/MapResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        <state relative-caret-position="430">
+          <caret line="23" column="67" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/carpooling/ws/server/user/UserService.java">
+    <entry file="file://$PROJECT_DIR$/src/org/carpooling/ws/server/map/GraphSerializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        <state relative-caret-position="474">
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/carpooling/ws/server/user/UserResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
           </folding>
         </state>
       </provider>
