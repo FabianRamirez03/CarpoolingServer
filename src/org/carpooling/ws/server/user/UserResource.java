@@ -3,7 +3,7 @@ package org.carpooling.ws.server.user;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 
-@Path("/user")
+@Path("/users")
 @Consumes(MediaType.APPLICATION_JSON)
 @Produces(MediaType.APPLICATION_JSON)
 public class UserResource {
