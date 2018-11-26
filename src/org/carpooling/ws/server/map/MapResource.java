@@ -11,8 +11,8 @@ public class MapResource {
     private static Graph map = MapGenerator.generateGraph(30);
 
     @GET
-    public Graph getUser() {
-        return map;
+    public String getUser() {
+        return map.toString();
     }
 
 }

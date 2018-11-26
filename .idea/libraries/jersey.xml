@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="jersey-common">
+  <library name="jersey">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/../WebOfSorts/lib/jersey-common.jar!/" />
       <root url="jar://$PROJECT_DIR$/../WebOfSorts/lib/jersey-container-servlet.jar!/" />
