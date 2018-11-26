@@ -4,21 +4,21 @@ import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 
 @Path("/users")
-@Consumes(MediaType.APPLICATION_JSON)
-@Produces(MediaType.APPLICATION_JSON)
+@Consumes(MediaType.TEXT_PLAIN)
+@Produces(MediaType.TEXT_PLAIN)
 public class UserResource {
 
     private UserService userService = new UserService();
 
     @GET
     @Path("/{user_id}")
-    public User getUser(@PathParam("user_id") int id) {
+    public String getUser(@PathParam("user_id") int id) {
         return userService.getUser(id);
     }
 
     @POST
     @Path("/register")
-    public void newUser(User user) {
+    public void newUser(String user) {
         userService.newUser(user);
     }
 

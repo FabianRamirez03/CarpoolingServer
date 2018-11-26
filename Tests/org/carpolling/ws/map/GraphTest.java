@@ -1,6 +1,9 @@
 package org.carpolling.ws.map;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.carpooling.ws.server.map.Graph;
+import org.carpooling.ws.server.map.MapGenerator;
 import org.carpooling.ws.server.map.Node;
 import org.junit.jupiter.api.Test;
 
@@ -13,6 +16,17 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
 
 class GraphTest {
+
+    @Test
+    void convertToJson() {
+        Graph graph = MapGenerator.generateGraph(30);
+        try {
+            String s = new ObjectMapper().writeValueAsString(graph);
+            System.out.println(s);
+        } catch (JsonProcessingException e) {
+            e.printStackTrace();
+        }
+    }
 
     @Test
     void dijkstra() {

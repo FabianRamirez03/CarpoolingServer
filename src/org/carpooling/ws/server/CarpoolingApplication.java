@@ -5,11 +5,12 @@ import org.carpooling.ws.server.map.MapResource;
 import org.carpooling.ws.server.user.UserResource;
 
 import javax.ws.rs.ApplicationPath;
+import javax.ws.rs.core.Application;
 import java.util.HashSet;
 import java.util.Set;
 
 @ApplicationPath("/")
-public class Application extends javax.ws.rs.core.Application {
+public class CarpoolingApplication extends Application {
 
     @Override
     public Set<Class<?>> getClasses() {

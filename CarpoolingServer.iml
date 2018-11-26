@@ -23,9 +23,10 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="WebSphere 18.0.0.3" level="application_server_libraries" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="WebSphere 18.0.0.3" level="application_server_libraries" />
     <orderEntry type="library" name="logback" level="project" />
     <orderEntry type="library" name="junit" level="project" />
-    <orderEntry type="library" name="jersey" level="project" />
+    <orderEntry type="library" exported="" name="jersey" level="project" />
+    <orderEntry type="library" exported="" name="jackson" level="project" />
   </component>
 </module>
